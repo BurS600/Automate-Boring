@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-path = (r"C:\Users\burha\AppData\Local\Programs\Python\Python310\Lib\site-packages\selenium\webdriver\chrome\chromedriver_win32\chromedriver.exe")
+path = (r"C:\Users\user\AppData\Local\Programs\Python\Python310\Lib\site-packages\selenium\webdriver\chrome\chromedriver_win32\chromedriver.exe")
 browser = webdriver.Chrome(path)
 browser.get('https://investopedia.com/')
 
