@@ -13,48 +13,48 @@ print(os.getcwd())
 # . this folder ; .. means parent folder
 
 
-os.chdir(r'C:\Users\burha\MyPythonScripts')
+os.chdir(r'C:\Users\user\MyPythonScripts')
 print(os.getcwd())
 print(os.path.abspath('AbsandRelativeFilePaths.py'))
 
 # passing a file from cwd into os.path.abspath() returns the absolute path N.B: to put filename in quotes
 
 
-print(os.path.isabs('burha\MyPythonScripts'))
+print(os.path.isabs('user\MyPythonScripts'))
 
 # boolean check to see if filepath is absolute
 
-print(os.path.relpath('C:\\Users\\burha\\MyPythonScripts','C:\\Users'))
+print(os.path.relpath('C:\\Users\\user\\MyPythonScripts','C:\\Users'))
 
 #provides relative path between two provided path (with the second path being cwd or frame of reference)
 
 
-print(os.path.dirname(r'C:\Users\burha\MyPythonScripts\AbsandRelativeFilePaths.py'))
+print(os.path.dirname(r'C:\Users\user\MyPythonScripts\AbsandRelativeFilePaths.py'))
 # returns directory path
 
-print(os.path.basename(r'C:\Users\burha\MyPythonScripts\AbsandRelativeFilePaths.py'))
+print(os.path.basename(r'C:\Users\user\MyPythonScripts\AbsandRelativeFilePaths.py'))
 
 # returns basename file or folder i.e the last most file or folder name in path location
 
 
 print(os.path.exists('C:\\Users\\RandomNonExistentFolder'))
 
-print(os.path.exists('C:\\Users\\burha\\MyPythonScripts'))
+print(os.path.exists('C:\\Users\\user\\MyPythonScripts'))
 
 # above checks if folder or file actually exists
 
 
-print(os.path.isdir('C:\\Users\\burha\\MyPythonScripts'))
-print(os.path.isfile('C:\\Users\\burha\\MyPythonScripts'))
+print(os.path.isdir('C:\\Users\\user\\MyPythonScripts'))
+print(os.path.isfile('C:\\Users\\user\\MyPythonScripts'))
 
 #above two check if path provided is folder or a file respectively
 
-print(os.path.getsize('C:\\Users\\burha\\MyPythonScripts'))
+print(os.path.getsize('C:\\Users\\user\\MyPythonScripts'))
 print(os.path.getsize('C:\\windows\\system32\\calc.exe')) # calculator tool size
 
 # retrieves size of provided folder or file in bytes
 
-print(os.listdir('C:\\Users\\burha\\MyPythonScripts'))
+print(os.listdir('C:\\Users\\user\\MyPythonScripts'))
 
 ## OS.LISTDIR (notice its not within path module but rather os module itself) returns all the directories within given path
 
@@ -65,13 +65,13 @@ print(os.listdir('C:\\Users\\burha\\MyPythonScripts'))
 
 TotalDirSize = 0
 print('TotalDirSize:' + str(TotalDirSize))
-for dir in os.listdir('C:\\Users\\burha\\MyPythonScripts'):
-    if not os.path.isfile(os.path.join('C:\\Users\\burha\\MyPythonScripts\\',dir)):
+for dir in os.listdir('C:\\Users\\user\\MyPythonScripts'):
+    if not os.path.isfile(os.path.join('C:\\Users\\user\\MyPythonScripts\\',dir)):
         continue
-    TotalDirSize = TotalDirSize + os.path.getsize(os.path.join('C:\\Users\\burha\\MyPythonScripts\\',dir))
+    TotalDirSize = TotalDirSize + os.path.getsize(os.path.join('C:\\Users\\user\\MyPythonScripts\\',dir))
 
 print('TotalDirSize after loop:    ' + str(TotalDirSize))
-print('Size of MyPythonScripts :   '+ str(os.path.getsize('C:\\Users\\burha\\MyPythonScripts')))
+print('Size of MyPythonScripts :   '+ str(os.path.getsize('C:\\Users\\user\\MyPythonScripts')))
 
 
 
