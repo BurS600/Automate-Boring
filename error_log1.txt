@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "C:/Users/burha/MyPythonScripts/RaiseandAssertstatements.py", line 61, in <module>
+    raise Exception( ' This is the error message')
+Exception:  This is the error message
+Traceback (most recent call last):
+  File "C:/Users/burha/MyPythonScripts/RaiseandAssertstatements.py", line 61, in <module>
+    raise Exception( ' This is the error message')
+Exception:  This is the error message
+Traceback (most recent call last):
+  File "C:/Users/burha/MyPythonScripts/RaiseandAssertstatements.py", line 61, in <module>
+    raise Exception( ' This is the error message')
+Exception:  This is the error message
+Traceback (most recent call last):
+  File "C:/Users/burha/MyPythonScripts/RaiseandAssertstatements.py", line 61, in <module>
+    raise Exception( ' This is the error message')
+Exception:  This is the error message
+Traceback (most recent call last):
+  File "C:/Users/burha/MyPythonScripts/RaiseandAssertstatements.py", line 61, in <module>
+    raise Exception( ' This is the error message')
+Exception:  This is the error message
+Traceback (most recent call last):
+  File "C:/Users/burha/MyPythonScripts/RaiseandAssertstatements.py", line 61, in <module>
+    raise Exception( ' This is the error message')
+Exception:  This is the error message
+Traceback (most recent call last):
+  File "C:/Users/burha/MyPythonScripts/RaiseandAssertstatements.py", line 61, in <module>
+    raise Exception( ' This is the error message')
+Exception:  This is the error message
